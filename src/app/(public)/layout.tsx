@@ -11,7 +11,6 @@ import { ThemeProvider } from '@/providers/theme-provider';
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import React from 'react';
-import { TheFooter, TheHeader } from './components';
 
 export const metadata: Metadata = {
     metadataBase: new URL(SITE_DOMAIN),
@@ -38,9 +37,7 @@ export default function RootLayout({
                     defaultTheme='system'
                     enableSystem
                 >
-                    <TheHeader />
                     <main>{children}</main>
-                    <TheFooter />
                 </ThemeProvider>
             </body>
         </html>

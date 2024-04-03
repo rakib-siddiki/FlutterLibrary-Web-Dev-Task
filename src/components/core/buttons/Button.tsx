@@ -5,22 +5,34 @@ interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     children: React.ReactNode;
     className?: string;
     loading?: boolean;
+    size?: 'sm' | 'md' | 'lg';
 }
 
 const colorClasses = {
     indigo: 'border-transparent text-white bg-indigo-600 hover:bg-indigo-500 focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700',
-    white: 'border-gray-300 text-gray-700 bg-white hover:text-gray-500 focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50'
+    white: 'border-gray-300 hover:border-gray-50/20 text-gray-900 bg-gray-300 hover:bg-gray-900 hover:text-gray-50 active:text-gray-800 dark:border-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-50 transition ease-in-out duration-300'
 };
 const baseClasses =
-    'w-full inline-flex items-center justify-center px-4 py-2 border text-sm leading-5 font-medium rounded-md focus:outline-none transition ease-in-out duration-150';
-
-const Button = ({ color, children, className, loading, ...rest }: IProps) => {
+    'w-full inline-flex items-center justify-center px-4 py-2.5 border text-sm leading-5 font-medium rounded-xl outline-none white-space-nowrap transition ';
+const buttonSize = {
+    sm: 'py-2 px-4',
+    md: 'py-3 px-6',
+    lg: 'py-4 px-8'
+};
+const Button = ({
+    color,
+    children,
+    className,
+    size = 'md',
+    loading,
+    ...rest
+}: IProps) => {
     return (
         <span className='inline-flex rounded-md shadow-sm'>
             <button
                 {...rest}
                 type='button'
-                className={`${className} ${baseClasses} ${colorClasses[color]}`}
+                className={`${className} ${baseClasses} ${buttonSize[size]} ${colorClasses[color]}`}
             >
                 {loading && (
                     <svg

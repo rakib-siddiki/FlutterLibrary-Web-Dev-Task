@@ -26,46 +26,14 @@ const config: Config = {
         extend: {
             colors: {
                 white: '#ffffff',
-                primary: {
-                    50: '#F2EFFE',
-                    100: '#D8CEFC',
-                    200: '#CBBDFB',
-                    300: '#BFADFA',
-                    400: '#B29CF9',
-                    500: '#A58CF8',
-                    600: '#987BF7',
-                    700: '#8B6BF6',
-                    800: '#7E5AF5',
-                    900: '#7151dd'
-                },
                 gray: {
-                    50: '#E8E8E9',
-                    100: '#D0D1D4',
-                    200: '#B9BABE',
-                    300: '#A1A3A8',
-                    400: '#8A8C93',
-                    500: '#73747D',
-                    600: '#5B5D67',
-                    700: '#444651',
-                    800: '#2C2F3C',
-                    900: '#151826'
-                },
-                orchid: {
-                    50: '#FCEFFB',
-                    100: '#F9DEF6',
-                    200: '#F5CEF2',
-                    300: '#F2BDED',
-                    400: '#EFADE9',
-                    500: '#EC9CE4',
-                    600: '#E98CE0',
-                    700: '#E57BDB',
-                    800: '#E26BD7',
-                    900: '#DF5AD2'
-                },
-                success: '#3CB371',
-                error: '#ff4444',
-                warning: '#ffbb33',
-                info: '#33b5e5'
+                    50: '#F5F5F5',
+                    100: '#EEEEEE',
+                    300: '#F0F0F0',
+                    500: '#989898',
+                    800: '#222222',
+                    900: '#111111'
+                }
             },
             fontFamily: {
                 nunito: ['var(--font-nunito-sans)'],
