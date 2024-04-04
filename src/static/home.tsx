@@ -64,3 +64,47 @@ export const ALL_SCREENS = [
         screenCount: 16
     }
 ];
+export const TEMPELETES = [
+    {
+        id: 1,
+        url: '/templete/FoodTemplete.png',
+        text: 'Foodly Restaurent App Template',
+        download: 546,
+        uiKit: 28
+    },
+    {
+        id: 2,
+        url: '/templete/FlutterAnimation-1.png',
+        text: 'Flutter Animation Template',
+        download: 546,
+        uiKit: 28
+    },
+    {
+        id: 2,
+        url: '/templete/FlutterAnimation-2.png',
+        text: 'Flutter Animation Template',
+        download: 546,
+        uiKit: 28
+    },
+    {
+        id: 3,
+        url: '/templete/FlutterAnimation-3.png',
+        text: 'Flutter Animation Template',
+        download: 546,
+        uiKit: 28
+    },
+    {
+        id: 4,
+        url: '/templete/FlutterAnimation-4.png',
+        text: 'Flutter Animation Template',
+        download: 546,
+        uiKit: 28
+    },
+    {
+        id: 5,
+        url: '/templete/FlutterAnimation-5.png',
+        text: 'Flutter Animation Template',
+        download: 546,
+        uiKit: 28
+    }
+];

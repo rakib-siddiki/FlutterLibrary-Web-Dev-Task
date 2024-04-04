@@ -11,7 +11,7 @@ const Logo: FC<IProps> = ({ className }) => {
         <Image
             height={35}
             width={100}
-            src={theme === 'light' ? '/logo-dark.png' : '/logo-light.png'}
+            src={theme === 'dark' ? '/logo-light.png' : '/logo-dark.png'}
             alt='site-logo'
             className={`${className} h-12 w-fit`}
             unoptimized

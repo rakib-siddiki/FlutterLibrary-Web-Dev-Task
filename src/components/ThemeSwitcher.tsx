@@ -1,9 +1,10 @@
 'use client';
 import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
+import { ButtonHTMLAttributes, FC, useEffect, useState } from 'react';
 import { Icons } from './Icons';
-
-export const ThemeSwitcher = () => {
+import { cn } from '@/utils';
+interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
+export const ThemeSwitcher: FC<IProps> = ({ className }) => {
     const [mounted, setMounted] = useState(false);
     const { theme, setTheme } = useTheme();
 
@@ -17,7 +18,10 @@ export const ThemeSwitcher = () => {
 
     return (
         <button
-            className={`w-fit hover:scale-110 active:scale-100 duration-200`}
+            className={cn(
+                `w-fit hover:scale-110 active:scale-100 duration-200`,
+                className
+            )}
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         >
             {theme === 'light' ? (
