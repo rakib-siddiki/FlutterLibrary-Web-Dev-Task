@@ -3,3 +3,4 @@ export * from './Sidebar';
 export * from './Hero';
 export * from './Templete';
 export * from './Artical';
+export * from './Screens';

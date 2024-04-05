@@ -1,5 +1,5 @@
 import React from 'react';
-import { Artical, Hero, Templete } from '.';
+import { Artical, Hero, Screens, Templete } from '.';
 
 const HomeWrapper = () => {
     return (
@@ -7,6 +7,7 @@ const HomeWrapper = () => {
             <Hero />
             <Templete />
             <Artical />
+            <Screens />
         </div>
     );
 };

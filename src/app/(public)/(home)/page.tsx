@@ -1,4 +1,4 @@
-import { TheHeader } from '../components';
+import { TheFooter, TheHeader } from '../components';
 import { HomeWrapper, Sidebar } from './components';
 
 const HomePage = () => {
@@ -12,7 +12,7 @@ const HomePage = () => {
                 <div>
                     <HomeWrapper />
                 </div>
-                {/* <TheFooter /> */}
+                <TheFooter />
             </div>
         </div>
     );

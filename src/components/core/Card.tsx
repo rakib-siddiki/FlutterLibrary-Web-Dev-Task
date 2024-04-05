@@ -27,7 +27,7 @@ const Card: FC<IProps> = ({
                 height={300}
                 src={url}
                 alt={'tempelete'}
-                className='h-56 w-auto mb-2'
+                className='h-56 w-auto mb-2 rounded-lg overflow-hidden'
             />
             {cardFor === 'articles' ? (
                 <div className='flex items-center gap-5 text-sm text-gray-500 dark:text-gray-100/80 mb-2'>

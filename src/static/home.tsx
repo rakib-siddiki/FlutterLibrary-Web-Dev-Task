@@ -119,15 +119,107 @@ export const ARTICLES = [
     {
         id: 2,
         url: '/articles/Article-2.png',
-        text: 'Learn Flutter animation',
+        text: 'Onboarding Screen with Carousel & Animated Dots',
         date: 'Mar 24, 2024',
         category: 'animation'
     },
     {
         id: 3,
         url: '/articles/Article-3.png',
-        text: 'Learn Flutter animation',
+        text: 'Parallax Scroll Effect with PageView in Flutter',
         date: 'Mar 24, 2024',
         category: 'animation'
+    }
+];
+export const TAGS = [
+    {
+        id: 1,
+        name: 'all'
+    },
+    {
+        id: 2,
+        name: 'New'
+    },
+    {
+        id: 3,
+        name: 'Popular'
+    },
+    {
+        id: 4,
+        name: 'Onboarding'
+    },
+    {
+        id: 5,
+        name: 'Auth'
+    },
+    {
+        id: 6,
+        name: 'Shop'
+    },
+    {
+        id: 7,
+        name: 'Chat'
+    },
+    {
+        id: 8,
+        name: 'TOP Verification'
+    },
+    {
+        id: 9,
+        name: 'Dashboard'
+    },
+    {
+        id: 10,
+        name: 'Food'
+    },
+    {
+        id: 11,
+        name: 'Restaurent'
+    },
+    {
+        id: 12,
+        name: 'Fitness'
+    }
+];
+export const SCREENS = [
+    {
+        id: 1,
+        url: '/screens/PhoneMockup-1.png'
+    },
+    {
+        id: 2,
+        url: '/screens/PhoneMockup-2.png'
+    },
+    {
+        id: 3,
+        url: '/screens/PhoneMockup-3.png'
+    },
+    {
+        id: 4,
+        url: '/screens/PhoneMockup-4.png'
+    },
+    {
+        id: 5,
+        url: '/screens/PhoneMockup-5.png'
+    },
+    {
+        id: 6,
+        url: '/screens/PhoneMockup-6.png'
+    },
+    {
+        id: 7,
+        url: '/screens/PhoneMockup-7.png'
+    },
+    {
+        id: 8,
+        url: '/screens/PhoneMockup-8.png'
+    },
+    {
+        id: 9,
+        url: '/screens/PhoneMockup-9.png'
+    },
+    {
+        id: 10,
+        url: '/screens/PhoneMockup-10.png'
     }
 ];
