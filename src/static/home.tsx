@@ -223,3 +223,15 @@ export const SCREENS = [
         url: '/screens/PhoneMockup-10.png'
     }
 ];
+export const FOOTERLIST = {
+    explore: [
+        { id: 1, name: 'Blog', url: '/' },
+        { id: 2, name: 'Templates', url: '/' },
+        { id: 3, name: 'Screens', url: '/' }
+    ],
+    support: [
+        { id: 1, name: 'Pricing', url: '/' },
+        { id: 2, name: 'Become a sponsor', url: '/' },
+        { id: 3, name: 'Hire top Flutter Devs', url: '/' }
+    ]
+};
