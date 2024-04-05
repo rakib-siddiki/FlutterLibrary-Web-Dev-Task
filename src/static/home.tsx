@@ -108,3 +108,26 @@ export const TEMPELETES = [
         uiKit: 28
     }
 ];
+export const ARTICLES = [
+    {
+        id: 1,
+        url: '/articles/Article-1.png',
+        text: 'Learn Flutter animation',
+        date: 'Mar 24, 2024',
+        category: 'animation'
+    },
+    {
+        id: 2,
+        url: '/articles/Article-2.png',
+        text: 'Learn Flutter animation',
+        date: 'Mar 24, 2024',
+        category: 'animation'
+    },
+    {
+        id: 3,
+        url: '/articles/Article-3.png',
+        text: 'Learn Flutter animation',
+        date: 'Mar 24, 2024',
+        category: 'animation'
+    }
+];

@@ -13,7 +13,7 @@ const Logo: FC<IProps> = ({ className }) => {
             width={100}
             src={theme === 'dark' ? '/logo-light.png' : '/logo-dark.png'}
             alt='site-logo'
-            className={`${className} h-12 w-fit`}
+            className={`${className} h-12 2xl:h-20 w-fit`}
             unoptimized
         />
     );
